@@ -5,7 +5,7 @@ Class exercise from the Software Testing course. We got a compiled, buggy Hangma
 ## Files
 
 - `hangman_buggy_2`: the compiled buggy Hangman executable (macOS binary). Source code is not available, so it can only be tested as a black box.
-- `hangman_donghi.py`: the test suite. It starts the executable as a subprocess, sends input and checks the output.
+- `hangman_test.py`: the test suite. It starts the executable as a subprocess, sends input and checks the output.
 
 ## Test suite
 
@@ -18,7 +18,7 @@ Tests are grouped in three areas:
 ## Usage
 
 ```
-python3 hangman_donghi.py
+python3 hangman_test.py
 ```
 
 Each test prints `PASS` or `FAIL` (with the actual output). A `FAIL` points to a bug in the executable.
